@@ -102,7 +102,7 @@ ul.row {
     padding: .5rem;
 }
 
-.rew::after {
+.row::after {
     content: "";
     display: table;
     float: none;
