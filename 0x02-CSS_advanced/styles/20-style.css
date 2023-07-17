@@ -105,7 +105,7 @@ ul.row {
 .row::after {
     content: "";
     display: table;
-    float: none;
+    clear: both;
 }
 
 .visually-hidden {
