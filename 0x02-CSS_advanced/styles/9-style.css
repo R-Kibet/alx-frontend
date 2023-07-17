@@ -13,6 +13,10 @@ body{
     line-height: var(--line-height-base);
 }
 
+a {
+    color: default;
+}
+
 .visually-hidden {
     display: none;
 }
