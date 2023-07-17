@@ -103,7 +103,7 @@ ul.row {
 }
 
 .rew::after {
-    content: '';
+    content: "";
     display: table;
     float: none;
 }
