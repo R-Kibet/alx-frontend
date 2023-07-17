@@ -30,10 +30,11 @@
     --section-title-color: var(--color-black);
 }
 
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
 html {
-    box-sizing: content-box;
-    width:auto;
-    
     scroll-behavior: smooth;
     font-size: 62.5%;
 
