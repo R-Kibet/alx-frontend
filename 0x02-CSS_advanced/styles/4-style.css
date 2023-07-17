@@ -3,15 +3,12 @@ html {
 
 }
 
-body{
+body, a{
 
     color: var(--text-color);
     font-family: var(--font-family-base);
 }
 
-a {
-    color: var(--text-color);
-}
 
 .visually-hidden {
     display: none;
@@ -33,7 +30,7 @@ a {
     --font-family-title: Helvetica Neue, Helvetica, Arial,sans-serif;
 }
 
-section.section-tagline, .card-category {
+.section-tagline, .card-category {
     color: var(--color-primary);
 }
 
