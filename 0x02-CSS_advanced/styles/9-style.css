@@ -14,7 +14,8 @@ body{
 }
 
 a {
-    color: default;
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 .visually-hidden {
