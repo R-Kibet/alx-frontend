@@ -282,7 +282,7 @@ ul.row {
 
 .card-work .card-image img {
     height: 30rem;
-    width: 100%;
+    width: 101%;
     object-fit: cover;
     vertical-align: bottom;
 }
@@ -296,7 +296,7 @@ ul.row {
 }
 
 .card-work:hover .card-inner {
-    background-color: rgba(1, 0, 0, 0.7) ;
+    background-color: rgba(0, 0, 0, 0.7) ;
 }
 
 .card-work .card-title {
