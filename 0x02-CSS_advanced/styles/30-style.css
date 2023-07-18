@@ -317,12 +317,12 @@ ul.row {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
     left: 0;
+    bottom: 0;
     content: "";
 }
 
-.card-work .card-title:hover {
+.card-work:hover .card-title {
     opacity: 1;
 }
 
