@@ -48,12 +48,6 @@
     
 }
 
-[data-section-theme=“dark”] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background-color: var(--color-black);
-}
-
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -198,6 +192,12 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     padding: 0.5rem;
 
+}
+
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
 }
 
 
