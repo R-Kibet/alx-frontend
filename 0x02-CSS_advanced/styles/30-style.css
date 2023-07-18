@@ -281,8 +281,8 @@ ul.row {
 }
 
 .card-work .card-image img {
-    height: 30rem;
-    width: 101%;
+    height: 31rem;
+    width: 100%;
     object-fit: cover;
     vertical-align: bottom;
 }
