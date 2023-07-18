@@ -319,7 +319,7 @@ ul.row {
     right: 0;
     bottom: 0;
     left: 0;
-    content: '';
+    content: "";
 }
 
 .card-work .card-title:hover {
