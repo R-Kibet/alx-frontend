@@ -42,7 +42,7 @@
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(--color-white);
+    --nav-item-link-hover: var(--color-primary);
 
     --section-tagline-margin: 0;
 
@@ -146,6 +146,52 @@ ul.row {
     display: none;
 }
 
+.navbar-menu {
+    float: right;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+}
+
+.nav .nav-item {
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+}
+
+.nav .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.nav .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 0;
+    height: 0.2rem;
+}
+
+.nav .nav-item:hover .nav-link::before {
+    background-color: var(--color-primary);
+    width: 100%;
+}
+
+
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
+}
+
 .section {
     padding: var(--section-padding);
 }
@@ -235,49 +281,6 @@ ul.row {
     margin-right: auto;
 }
 
-.navbar-menu {
-    float: right;
-}
-
-.nav {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-
-}
-
-.nav .nav-item {
-    font-family: var(--nav-item-font-family);
-    font-weight: var(--nav-item-font-weight);
-    font-size: var(--nav-item-font-size);
-    letter-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
-    margin: var(--nav-item-margin);
-}
-
-.nav .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--color-white);
-    width: 0;
-    height: 0.2rem;
-
-}
-
-.nav .nav-item:hover {
-    background-color: var(--color-primary);
-    width: 100%;
-}
-
-.nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
-}
-
 [class*='col-'] {
     float: left;
     padding: 0.5rem;
@@ -332,3 +335,4 @@ ul.row {
 .footer-address {
     color: var(--text-color);
 }
+
